@@ -16,6 +16,6 @@ OPTIONS:
 ```bash
 blast_phylogenomics.py  \
 	-q conserved_proteins.fasta \
-	-p /home/Proteomes/
+	-p /home/Proteomes/ \
 	-e 1e-50
 ```
