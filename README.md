@@ -7,10 +7,12 @@ This repository contains scripts that facilitate the manipulation of large amoun
 - [DIAMOND](https://github.com/bbuchfink/diamond) 
 
 
-USAGE:  split_fasta_into_folders.py [ options ]\
-Split the fasta file into folders containing the sequences of the same name.\
-    -f|--fasta_file\
-    -d|--output_directory (Optional. Default: current directory)
+<p>USAGE:  split_fasta_into_folders.py [ options ]</p>
+<p>Split the fasta file into folders containing the sequences of the same name.</p>
+ <ul>
+-f|--fasta_file<br>
+-d|--output_directory (Optional. Default: current directory)
+</ul>
 
 ```bash
 split_fasta_into_folders.py  \
