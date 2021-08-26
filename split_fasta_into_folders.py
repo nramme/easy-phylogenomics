@@ -8,7 +8,7 @@ if len(sys.argv) <= 1:
 
 if sys.argv[1] in ["-h", "--help", "getopt", "usage", "-help", "help"]:
 	sys.exit('''
-USAGE:  split_fasta.py [ options ]
+USAGE:  split_fasta_into_folders.py [ options ]
 Split the fasta file into folders containing the sequences of the same name.
     -f|--fasta_file
     -d|--output_directory (Optional. Default: current directory)
